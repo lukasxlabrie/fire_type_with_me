@@ -31,13 +31,14 @@ You may must enter North, South, East, or West to move between rooms.
 We belive Agent Cooper may have left notes or perosnal belonings throughout the area as well, please keep an eye out and enter "get item" to collect these artifacts.
 
 The locations are as follows: 
+The Falls (game entrance, no item)
 The Great Northern Hotel
 The Double R Diner
 The Roadhouse
 One-Eyed Jacks
 Sheriffs Station
 Owl Cave
-The Black Lodge
+The Black Lodge (Villain loacted here, not itemn, but when the player is in this room text will print backwards)
 
 The items are as follows: 
 315 Room Key "CLEAN PLACE REASONABLY PRICED" (located in The Great Northern Hotel)
@@ -47,4 +48,8 @@ Broken Poker Chip (located in One-Eyed Jacks)
 72 Fresh Assorted donuts (located in the Sheriffs Station)
 Mysterious Jade Signet Ring (located in the Owl Cave)
 
-The Black Lodge is where Bob is keeping Cooper. Enter with all items to save Coop and return to another dimension with no sense of reality. Enter without them and remain trapped with cooper "Sometimes my arms bend back". IF POSSIBLE MAKE TEXT PRINT BACKWARDS WHEN IN THIS ROOM.
+The Black Lodge is where Bob is keeping Cooper. 
+
+Enter The Black Lodge with all items to save Coop, in this sceanrio print "There they are, Albert. Faces of stone! Good job, Agent Dale Cooper is safe".
+
+ Enter without them and remain trapped with cooper for eternity, in this scenario print  "Sometimes my arms bend back".
