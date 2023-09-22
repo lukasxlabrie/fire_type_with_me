@@ -1,5 +1,5 @@
 # fire_type_with_me
-Titile: Fire Type With Me: A Twin Peaks text based adventure game 
+Title: Fire Type With Me: A Twin Peaks text based adventure game 
 
 OVERVIEW/GOAL
 This game will require the player to navigate through rooms to collect items required to defeat a villian at the end of the game.
@@ -24,7 +24,7 @@ GAME DETAILS:
 Ask player to enter thier last name:
 
 Print Directions for the player: Welcome to Twin Peaks Special Agent (name).
-Your mission is to locate and reomve Agent Dale Cooper from Twin Peaks. His exact whereabouts are unknwon below is a list of locations we belibe he may be. 
+Your mission is to locate and reomve Agent Dale Cooper from Twin Peaks. His exact whereabouts are unknwon below is a list of locations we belive he may be. 
 
 You may must enter North, South, East, or West to move between rooms. 
 
