@@ -43,13 +43,13 @@ The Black Lodge (Villain loacted here, no itemn, but when the player is in this 
 The items are as follows: 
 315 Room Key "CLEAN PLACE REASONABLY PRICED" (located in The Great Northern Hotel)
 A Damn Fine Cup of Coffee (located in The Double R Diner)
-Tape Recorder (located in The Roadhouse)
+Tape Recorder "Diane..." (located in The Roadhouse)
 Broken Poker Chip (located in One-Eyed Jacks)
 72 Fresh Assorted donuts (located in the Sheriffs Station)
 Mysterious Jade Signet Ring (located in the Owl Cave)
 
 The Black Lodge is where Bob is keeping Cooper. 
 
-Enter The Black Lodge with all items to save Coop, in this sceanrio print "There they are, Albert. Faces of stone! Good job, Agent Dale Cooper is safe".
+Enter The Black Lodge with all items to save Coop, in this sceanrio print "There they are, Albert. Faces of stone! Good job, Agent Dale Cooper is safe"
 
- Enter without them and remain trapped with cooper for eternity, in this scenario print  "Sometimes my arms bend back".
+ Enter without all of the items and remain trapped with cooper for eternity, in this scenario print  "Sometimes my arms bend back" "GAME OVER"
