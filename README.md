@@ -38,7 +38,7 @@ The Roadhouse
 One-Eyed Jacks
 Sheriffs Station
 Owl Cave
-The Black Lodge (Villain loacted here, not itemn, but when the player is in this room text will print backwards)
+The Black Lodge (Villain loacted here, no itemn, but when the player is in this room text will print backwards)
 
 The items are as follows: 
 315 Room Key "CLEAN PLACE REASONABLY PRICED" (located in The Great Northern Hotel)
