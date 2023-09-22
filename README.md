@@ -24,9 +24,9 @@ GAME DETAILS:
 Ask player to enter thier last name:
 
 Print Directions for the player: Welcome to Twin Peaks Special Agent (name).
-Your mission is to locate and reomve Agent Dale Cooper from Twin Peaks. His exact whereabouts are unknwon below is a list of locations we belive he may be. 
+Your mission is to locate and remove Agent Dale Cooper from Twin Peaks. His exact whereabouts are unknwon we suggest you start at the Falls and trace his steps from where they found her wrapped in plastic. 
 
-You may must enter North, South, East, or West to move between rooms. 
+You must enter North, South, East, or West to move around town 
 
 We belive Agent Cooper may have left notes or perosnal belonings throughout the area as well, please keep an eye out and enter "get item" to collect these artifacts.
 
