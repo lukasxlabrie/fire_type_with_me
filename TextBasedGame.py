@@ -38,11 +38,11 @@ input("Press any key to enter Twin Peaks...")
 #Room Navigation
 rooms ={
     'The Falls' : {'West' : 'The Great Northern Hotel'},
-    'The Great Northern Hotel' : {'East' : 'The Falls', 'South' : 'The Double R Diner'}, 
-    'The Double R Diner' : {'North' : 'The Great Northern Hotel', 'West' : 'The Roadhouse', 'East' : 'The Owl Cave', 'South' : 'The Sheriffs Station'},
-    'The Roadhouse' : {'East': 'The Double R Diner'},
-    'The Owl Cave' : {'West' : 'Double R Diner', 'North' : 'One-Eyed Jacks'},
-    'One-Eyed Jacks' : {'South' : 'The Owl Cave'},
-    'The Sheriffs Station' : {'North' : 'The Double R Diner', 'East' : 'The Black Lodge'},
+    'The Great Northern Hotel' : {'East' : 'The Falls', 'South' : 'The Double R Diner', 'Item' : 'Room 315 key "clean place reasonably priced"' }, 
+    'The Double R Diner' : {'North' : 'The Great Northern Hotel', 'West' : 'The Roadhouse', 'East' : 'The Owl Cave', 'South' : 'The Sheriffs Station', 'Item' : 'A Damn Fine Cup of Coffee'},
+    'The Roadhouse' : {'East': 'The Double R Diner', 'Item' : 'Tape Recorder "Diane..."'},
+    'The Owl Cave' : {'West' : 'Double R Diner', 'North' : 'One-Eyed Jacks', 'Item' : 'Mysterious Jade Signet Ring'},
+    'One-Eyed Jacks' : {'South' : 'The Owl Cave', 'Item' : 'Broken Poker Chip'},
+    'The Sheriffs Station' : {'North' : 'The Double R Diner', 'East' : 'The Black Lodge', 'Item' : '72 Fresh Assorted donuts'},
     'The Black Lodge' : {'West' : 'The Sheriffs Station'}
 }
