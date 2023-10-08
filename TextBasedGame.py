@@ -50,3 +50,7 @@ rooms ={
 #list of vowels
 vowels = ['a', 'e', 'i', 'o', 'u']
 
+#track inventory
+inventory = []
+
+
