@@ -44,5 +44,5 @@ rooms ={
     'The Owl Cave' : {'West' : 'Double R Diner', 'North' : 'One-Eyed Jacks', 'Item' : 'Mysterious Jade Signet Ring'},
     'One-Eyed Jacks' : {'South' : 'The Owl Cave', 'Item' : 'Broken Poker Chip'},
     'The Sheriffs Station' : {'North' : 'The Double R Diner', 'East' : 'The Black Lodge', 'Item' : '72 Fresh Assorted donuts'},
-    'The Black Lodge' : {'West' : 'The Sheriffs Station'}
+    'The Black Lodge' : {'West' : 'The Sheriffs Station', 'Boss' : 'Bob "Heads up, tails up, run you scallywags. Night falls, morning calls, Ill catch you with my death bag. You may think Ive gone insane, but I promise, I will kill again!"'}
 }
