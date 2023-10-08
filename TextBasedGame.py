@@ -56,5 +56,7 @@ inventory = []
 #track current room
 current_room = "The Falls"
 
+#result of last move
+msg = ""
 
 
