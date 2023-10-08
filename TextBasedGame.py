@@ -16,16 +16,13 @@ The Black Lodge
 We know Special Agent Dale Cooper has left behind items in each of these locations.
 It is required of you to collect these materials.
 Do not enter the Black Lodge unless necessary.
-Under no circumatances shouldd you enter The Black Lodge wihtout these itmes.
+Under no circumatances should you enter The Black Lodge wihtout these itmes.
 
-ENTER: North, South East, or West to move beteween rooms
-ENTER: Get Item to pick up items.
+ENTER: "North", "South", "East", or "West" to move beteween rooms
+ENTER: "Get Item" to pick up items.
 
-Good luck!
+Remember, the owls are not what they seem...
 """)
-#Just a fun quote from the series
-input("Press any key to hear a messsage from the Log Lady")
-print("The Owls Are Not What They Seem.")
 
 #starts game
 input("Press any key to enter Twin Peaks...")
