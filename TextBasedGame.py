@@ -1,4 +1,4 @@
-#Game introuction, Asks for user to enter last name and laysout the plot + controls
+ #Game introuction, Asks for user to enter last name and laysout the plot + controls
 name = input("Enter your last  name:")
 print(f"""
 Welcome to Twin Peaks, Special Agent {name}.
@@ -34,3 +34,15 @@ Remember, the owls are not what they seem...
 
 #starts game
 input("Press any key to enter Twin Peaks...")
+
+#Room Navigation
+rooms ={
+    'The Falls' : {'West' : 'The Great Northern Hotel'},
+    'The Great Northern Hotel' : {'East' : 'The Falls', 'South' : 'The Double R Diner'}, 
+    'The Double R Diner' : {'North' : 'The Great Northern Hotel', 'West' : 'The Roadhouse', 'East' : 'The Owl Cave', 'South' : 'The Sheriffs Station'},
+    'The Roadhouse' : {'East': 'The Double R Diner'},
+    'The Owl Cave' : {'West' : 'Double R Diner', 'North' : 'One-Eyed Jacks'},
+    'One-Eyed Jacks' : {'South' : 'The Owl Cave'},
+    'The Sheriffs Station' : {'North' : 'The Double R Diner', 'East' : 'The Black Lodge'},
+    'The Black Lodge' : {'West' : 'The Sheriffs Station'}
+}
