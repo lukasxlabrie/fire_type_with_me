@@ -46,3 +46,7 @@ rooms ={
     'The Sheriffs Station' : {'North' : 'The Double R Diner', 'East' : 'The Black Lodge', 'Item' : '72 Fresh Assorted donuts'},
     'The Black Lodge' : {'West' : 'The Sheriffs Station', 'Boss' : 'Bob "Heads up, tails up, run you scallywags. Night falls, morning calls, Ill catch you with my death bag. You may think Ive gone insane, but I promise, I will kill again!"'}
 }
+
+#list of vowels
+vowels = ['a', 'e', 'i', 'o', 'u']
+
