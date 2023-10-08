@@ -53,4 +53,8 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 #track inventory
 inventory = []
 
+#track current room
+current_room = "The Falls"
+
+
 
