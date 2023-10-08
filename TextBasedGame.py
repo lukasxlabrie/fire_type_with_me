@@ -23,3 +23,9 @@ ENTER: Get Item to pick up items.
 
 Good luck!
 """)
+#Just a fun quote from the series
+input("Press any key to hear a messsage from the Log Lady")
+print("The Owls Are Not What They Seem.")
+
+#starts game
+input("Press any key to enter Twin Peaks...")
