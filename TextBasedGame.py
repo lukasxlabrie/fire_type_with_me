@@ -1,4 +1,4 @@
- #Game introuction, Asks for user to enter last name and laysout the plot + controls
+#Game introuction, Asks for user to enter last name and laysout the plot + controls
 name = input("Enter your last  name:")
 print(f"""
 Welcome to Twin Peaks, Special Agent {name}.
