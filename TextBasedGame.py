@@ -1,4 +1,3 @@
-import os
 #Game introuction, Asks for user to enter last name and laysout the plot + controls
 name = input("Enter your last  name:")
 print(f"""
