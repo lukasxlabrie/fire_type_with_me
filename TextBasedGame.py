@@ -92,8 +92,20 @@ while True:
             
             # Singular starts with vowel
             elif nearby_item[0] in vowels:
-                    print (f"You see an{nearby_item}")
+                print (f"You see an{nearby_item}")
             
             # Singular starts with consanant
             else:
                 print(f"You see a {nearby_item}")
+    #Boss encounter
+    if 'Boss' in rooms[current_room].keys():
+
+        #You Lose...
+        if len(inventory) < 6:
+            print("Sometimes my arms bend back... GAME OVER!")
+            break
+        
+        #You Win!
+        else
+            print("There they are, Albert. Faces of stone! Damn fine job! Agent Dale Cooper is safe!")
+            break
