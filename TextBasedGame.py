@@ -135,3 +135,20 @@ if action == 'Go':
     except:
         msg = f"Out of jurisdiction"
 
+#Get item
+elif action == 'Get':
+
+    try:
+        if item == rooms[current_room]["Item"]:
+
+            if item not in inventory:
+
+                inventory.append(rooms[current_room]["Item"])
+                msg = f"{item} retrieved!"
+            
+            else:
+                msg = f"You already have the {item}."
+        else:
+            msg = f"Can't find {item}..."
+    except:
+        msg = f"Can't find {item}..."
