@@ -104,8 +104,11 @@ while True:
         if len(inventory) < 6:
             print("Sometimes my arms bend back... GAME OVER!")
             break
-        
+
         #You Win!
-        else
+        else:
             print("There they are, Albert. Faces of stone! Damn fine job! Agent Dale Cooper is safe!")
             break
+
+# Accepts players moves as input
+user_input = input("Enter your move:\n")
