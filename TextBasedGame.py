@@ -110,53 +110,53 @@ while True:
             print("There they are, Albert. Faces of stone! Damn fine job! Agent Dale Cooper is safe!")
             break
 
-# Accepts players moves as input
-user_input = input("Enter your move:\n")
+    # Accepts players moves as input
+    user_input = input("Enter your move:\n")
 
-#splits move into words
-next_move = user_input.split(' ')
+    #splits move into words
+    next_move = user_input.split(' ')
 
-#first word is action
-action = next_move[0].title()
+    #first word is action
+    action = next_move[0].title()
 
-if len(next_move) > 1:
-    item = next_move [1:]
-    direction = next_move[1].title()
+    if len(next_move) > 1:
+        item = next_move [1:]
+        direction = next_move[1].title()
 
     item = ' '.join(item).title()
 
-#moving between rooms
-if action == 'Go':
+    #moving between rooms
+    if action == 'Go':
 
-    try:
-        current_room = rooms[current_room][direction]
-        msg = f"You travel {direction}."
+        try:
+         current_room = rooms[current_room][direction]
+         msg = f"You travel {direction}."
 
-    except:
-        msg = f"Out of jurisdiction"
+        except:
+            msg = f"Out of jurisdiction"
 
-#Get item
-elif action == 'Get':
+    #Get item
+    elif action == 'Get':
 
-    try:
-        if item == rooms[current_room]["Item"]:
+        try:
+            if item == rooms[current_room]["Item"]:
 
-            if item not in inventory:
+                if item not in inventory:
 
-                inventory.append(rooms[current_room]["Item"])
-                msg = f"{item} retrieved!"
+                    inventory.append(rooms[current_room]["Item"])
+                    msg = f"{item} retrieved!"
             
+                else:
+                    msg = f"You already have the {item}."
             else:
-                msg = f"You already have the {item}."
-        else:
+                msg = f"Can't find {item}..."
+        except:
             msg = f"Can't find {item}..."
-    except:
-        msg = f"Can't find {item}..."
 
-#Exit the game
-elif action == "Exit":
-    break
+    #Exit the game
+    elif action == "Exit":
+        break
 
-#Any other commands invalid
-else:
-    msg = "Invalid command"
+    #Any other commands invalid
+    else:
+        msg = "Invalid command"
