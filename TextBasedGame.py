@@ -80,14 +80,14 @@ while True:
     print(msg)
 
     #item indictaor
-     if "Item" in rooms[current_room].keys():
+    if "Item" in rooms[current_room].keys():
 
         nearby_item = rooms[current_room]["Item"]
 
         if nearby_item not in inventory:
 
             # plural
-            if nearby_item [-1] = 's' :
+            if nearby_item[-1] == 's' :
                 print(f"You see {nearby_item}")
             
             # Singular starts with vowel
