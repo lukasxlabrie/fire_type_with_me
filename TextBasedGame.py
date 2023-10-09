@@ -64,3 +64,9 @@ current_room = "The Falls"
 msg = ""
 
 clear()
+
+#Gameplay loop!
+while True:
+
+    clear()
+    print(f"Welcomt to {current_room}\nInventory : {inventory}\n '-' * 27 ")
