@@ -125,4 +125,13 @@ if len(next_move) > 1:
 
     item = ' '.join(item).title()
 
+#moving between rooms
+if action == 'Go':
+
+    try:
+        current_room = rooms[current_room][direction]
+        msg = f"You travel {direction}."
+
+    except:
+        msg = f"Out of jurisdiction"
 
