@@ -152,3 +152,11 @@ elif action == 'Get':
             msg = f"Can't find {item}..."
     except:
         msg = f"Can't find {item}..."
+
+#Exit the game
+elif action == "Exit":
+    break
+
+#Any other commands invalid
+else:
+    msg = "Invalid command"
