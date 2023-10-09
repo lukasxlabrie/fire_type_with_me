@@ -112,3 +112,17 @@ while True:
 
 # Accepts players moves as input
 user_input = input("Enter your move:\n")
+
+#splits move into words
+next_move = user_input.split(' ')
+
+#first word is action
+action = next_move[0].title()
+
+if len(next_move) > 1:
+    item = next_move [1:]
+    direction = next_move[1].title()
+
+    item = ' '.join(item).title()
+
+
