@@ -1,3 +1,7 @@
+import os
+def clear():
+    os.system = ('cls')
+
 #Game introuction, Asks for user to enter last name and laysout the plot + controls
 name = input("Enter your last  name:")
 print(f"""
@@ -59,4 +63,4 @@ current_room = "The Falls"
 #result of last move
 msg = ""
 
-
+clear()
