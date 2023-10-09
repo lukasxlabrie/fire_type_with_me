@@ -1,4 +1,6 @@
 import os
+
+#clears terminal
 def clear():
     os.system = ('cls')
 
@@ -64,10 +66,34 @@ current_room = "The Falls"
 #result of last move
 msg = ""
 
+#clears terminal
 clear()
 
-#Gameplay loop!
+#Gameplay loop (represents players turn)
 while True:
 
-    clear()
+    clear() 
+    #Displays info for player
     print(f"Welcomt to {current_room}\nInventory : {inventory}\n '-' * 27 ")
+
+    #Displays msg
+    print(msg)
+
+    #item indictaor
+     if "Item" in rooms[current_room].keys():
+
+        nearby_item = rooms[current_room]["Item"]
+
+        if nearby_item not in inventory:
+
+            # plural
+            if nearby_item [-1] = 's' :
+                print(f"You see {nearby_item}")
+            
+            # Singular starts with vowel
+            elif nearby_item[0] in vowels:
+                    print (f"You see an{nearby_item}")
+            
+            # Singular starts with consanant
+            else:
+                print(f"You see a {nearby_item}")
