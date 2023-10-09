@@ -6,6 +6,7 @@ def clear():
 name = input("Enter your last  name:")
 print(f"""
 Welcome to Twin Peaks, Special Agent {name}.
+
 Your mission is to locate Special Agent Dale Cooper and remove him from Twin Peaks.
 His exact where-abouts are unknown at this time, but we suggest you explore the following:
 
