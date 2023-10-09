@@ -155,7 +155,7 @@ elif action == 'Get':
 
 #Exit the game
 elif action == "Exit":
-        break
+    break
 
 #Any other commands invalid
 else:
