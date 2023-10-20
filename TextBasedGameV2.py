@@ -40,3 +40,9 @@ def game_over():
 # You Win!
 def win_game():
     print("There they are, Albert. Faces of stone! Damn fine job! Agent Dale Cooper is safe!")
+
+# starts the game
+def main():
+    clear_screen()
+    introduction()
+    display_controls()
