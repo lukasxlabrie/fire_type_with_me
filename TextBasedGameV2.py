@@ -7,7 +7,7 @@ def clear_screen():
         else:
         os.system('clear')
 
-# Game introduction, prompts user for last name and sets the stage with a Twin Peaks twist
+# greets the player and explains the game
 name = input("Enter your last name: ")
 print(f"""
 Welcome to Twin Peaks, Special Agent {name}.
