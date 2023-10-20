@@ -84,3 +84,14 @@ def main():
             else:
                 win_game()
                 break
+        # should display current room and travel options, asks for input
+        display_adjacent_rooms(current_room, rooms)
+        user_input = input("Enter your move:\n").title().strip()
+
+        # allows player to explore rooms and checks for valid input
+        if user_input in ['N', 'S', 'E', 'W']:
+            if user_input in rooms[current_room]:
+                current_room = rooms[current_room][user_input]
+                msg = f"You travel {user_input} to {current_room}."
+            else:
+                msg = "out of Jurisdiction."
