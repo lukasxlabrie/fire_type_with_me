@@ -46,3 +46,20 @@ def main():
     clear_screen()
     introduction()
     display_controls()
+
+ # working dictionary/key for rooms, direction of travel, and items
+    rooms = {
+        'The Falls': {'W': 'The Great Northern Hotel'},
+        'The Great Northern Hotel': {'E': 'The Falls', 'S': 'The Double R Diner', 'Item': 'Room 315 Key'},
+        'The Double R Diner': {'N': 'The Great Northern Hotel', 'W': 'The Roadhouse', 'E': 'The Owl Cave', 'S': 'The Sheriff\'s Station', 'Item': 'A Damn Fine Cup Of Coffee'},
+        'The Roadhouse': {'E': 'The Double R Diner', 'Item': 'Tape Recorder'},
+        'The Owl Cave': {'W': 'The Double R Diner', 'N': 'One-Eyed Jacks', 'Item': 'Mysterious Jade Signet Ring'},
+        'One-Eyed Jacks': {'S': 'The Owl Cave', 'Item': 'Broken Poker Chip'},
+        'The Sheriff\'s Station': {'N': 'The Double R Diner', 'E': 'The Black Lodge', 'Item': '72 Fresh Assorted Donuts'},
+        'The Black Lodge': {'W': 'The Sheriff\'s Station', 'Boss': 'Bob "Heads up, tails up, run you scallywags!"'}
+    }
+
+   # starting point for room and inventory
+    inventory = []
+    current_room = "The Falls"
+    msg = ""
