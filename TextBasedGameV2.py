@@ -8,32 +8,13 @@ def clear_screen():
         os.system('clear')
 
 # greets the player and explains the game
-name = input("Enter your last name: ")
-print(f"""
-Welcome to Twin Peaks, Special Agent {name}.
-
-Your mission: find Special Agent Dale Cooper and escort him out of Twin Peaks.
-His exact location is unknown, but we recommend investigating the following places:
-
-The Great Northern Hotel
-The Double R Diner
-The Roadhouse
-One-Eyed Jacks
-The Sheriff's Station
-The Owl Cave
-The Black Lodge
-
-""")
-input("Press Enter to continue...")
-
-print("""
-We suspect Special Agent Dale Cooper has left crucial items in each location.
-Your task is to collect these materials.
-Avoid the Black Lodge unless absolutely necessary.
-Do not enter without these items.
-
-""")
-input("Press Enter to view controls.")
+def introduction():
+    print("Welcome to Twin Peaks: Fire Type With Me!")
+    name = input("Enter your last name:")
+    print(f"Welcome, Special Agent {name}. Your mission is to find Special Agent Dale Cooper and escort him out of Twin Peaks.")
+    print("Explore the following locations to locate crucial items he may have left behind:")
+    print("The Great Northern Hotel, The Double R Diner, The Roadhouse, One-Eyed Jacks, The Sheriff's Station, The Owl Cave, and The Black Lodge.")
+    input("Press Enter to view controls...")
 
 print("""
 ENTER: "North", "South", "East", or "West" to move between rooms.
