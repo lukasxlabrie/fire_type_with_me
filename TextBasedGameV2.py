@@ -16,15 +16,14 @@ def introduction():
     print("The Great Northern Hotel, The Double R Diner, The Roadhouse, One-Eyed Jacks, The Sheriff's Station, The Owl Cave, and The Black Lodge.")
     input("Press Enter to view controls...")
 
-print("""
-ENTER: "North", "South", "East", or "West" to move between rooms.
-ENTER: "Get Item" to pick up items.
-
-Remember, the owls are not what they seem...
-""")
-
-# Game begins
-input("Press Enter to enter Twin Peaks...")
+# shows the player the control scheme
+def display_controls():
+    print("Controls:")
+    print("ENTER 'N', 'S', 'E', or 'W' to move between rooms.")
+    print("ENTER 'Get [Item Name]' to pick up items.")
+    print("ENTER 'Quit' to end the game.")
+    print("*** Be sure to pay attention to lower/upper case letters when entering commands ***")
+    input("Press Enter to start your investigation...")
 
 # Room Navigation
 rooms = {
