@@ -36,3 +36,7 @@ def display_adjacent_rooms(current_room, rooms):
 # You Lose...
 def game_over():
     print("Sometimes my arms bend back... GAME OVER!")
+
+# You Win!
+def win_game():
+    print("There they are, Albert. Faces of stone! Damn fine job! Agent Dale Cooper is safe!")
