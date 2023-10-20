@@ -4,7 +4,7 @@ import os
 def clear_screen():
     if os.name == 'nt':
         os.system('cls')
-        else:
+    else:
         os.system('clear')
 
 # greets the player and explains the game
