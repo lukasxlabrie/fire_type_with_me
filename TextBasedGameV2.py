@@ -26,3 +26,9 @@ def display_controls():
     input("Press Enter to start your investigation...")
 
 # allows player to see which rooms they can travel to
+def display_adjacent_rooms(current_room, rooms):
+    adjacent_rooms = {k: v for k, v in rooms[current_room].items() if k in
+    ['N','S','E','W']}
+    print(f"Welcome to {current_room}. You can travel:")
+    for direction, room in adjacent_rooms.items():
+        print(f"Travel {direction} to visit {room}")
