@@ -63,3 +63,24 @@ def main():
     inventory = []
     current_room = "The Falls"
     msg = ""
+
+# game play loop, should display current room, current inventory, and moves
+    while True:
+        clear_screen()
+        print(f"Inventory: {inventory}\n{'-' * 27}")
+        print(msg)
+
+        # prints 'a' or 'an' accoridngly when item is seen
+        if "Item" in rooms[current_room].keys():
+            nearby_item = rooms[current_room]["Item"]
+            indefinite_article = "an" if nearby_item[0].lower() in 'aeiou' else "a"
+            print(f"You see {indefinite_article} {nearby_item}")
+
+        #final battle, win or lose depending on inventory
+        if 'Boss' in rooms[current_room].keys():
+            if len(inventory) < 6:
+                game_over()
+                break
+            else:
+                win_game()
+                break
