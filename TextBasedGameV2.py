@@ -95,3 +95,15 @@ def main():
                 msg = f"You travel {user_input} to {current_room}."
             else:
                 msg = "out of Jurisdiction."
+
+         # inventory management, should track items collected, let them retrieve more items, and check for valid input
+        elif user_input.startswith("Get "):
+            item_to_get = user_input.split("Get ")[1]
+            if "Item" in rooms[current_room] and item_to_get == rooms[current_room]["Item"]:
+                if item_to_get not in inventory:
+                    inventory.append(item_to_get)
+                    msg = f"{item_to_get} retrieved!"
+                else:
+                    msg = f"You already have {item_to_get}."
+            else:
+                msg = f"Can't find {item_to_get}."
