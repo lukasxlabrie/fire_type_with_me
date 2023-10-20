@@ -1,8 +1,11 @@
 import os
 
-# Function to clear terminal
+# keeps terminal clean for mac or pc
 def clear_screen():
-    os.system('clear')
+    if os.name == 'nt':
+        os.system('cls')
+        else:
+        os.system('clear')
 
 # Game introduction, prompts user for last name and sets the stage with a Twin Peaks twist
 name = input("Enter your last name: ")
