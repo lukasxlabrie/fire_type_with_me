@@ -32,3 +32,7 @@ def display_adjacent_rooms(current_room, rooms):
     print(f"Welcome to {current_room}. You can travel:")
     for direction, room in adjacent_rooms.items():
         print(f"Travel {direction} to visit {room}")
+
+# You Lose...
+def game_over():
+    print("Sometimes my arms bend back... GAME OVER!")
