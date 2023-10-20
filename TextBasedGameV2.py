@@ -24,3 +24,5 @@ def display_controls():
     print("ENTER 'Quit' to end the game.")
     print("*** Be sure to pay attention to lower/upper case letters when entering commands ***")
     input("Press Enter to start your investigation...")
+
+# allows player to see which rooms they can travel to
